@@ -27,6 +27,8 @@ import Accwizz from "./company/AccWizz.png"
 import Express from "./tech/express.svg"
 import Aws from "./tech/aws.svg"
 import Fitness365 from "./Fitness365.png"
+import College from "./college_dekho.png"
+
 
 export {
   logo,
@@ -52,5 +54,6 @@ export {
   Express,
   Aws,
   Fitness365,
-  Zaidlogo
+  Zaidlogo,
+  College
 };

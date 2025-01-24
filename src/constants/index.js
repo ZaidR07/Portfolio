@@ -17,7 +17,8 @@ import {
   Accwizz,
   Express,
   Aws,
-  Fitness365
+  Fitness365,
+  College
 } from "../assets";
 
 export const navLinks = [
@@ -153,6 +154,28 @@ const projects = [
     image: Fitness365,
     source_code_link: "https://github.com/ZaidR07/Project",
     deploymentlink: "https://fitness365.vercel.app/"
+  },
+  {
+    name: "College Dhundo",
+    description:
+      "Developed a one stop web application for surfing college campus across mumbai and its satellite cities. It includes colleges of various streams, level of education i.e. ' diploma, degree, master and doctorate 'and their respective entrance exams with their prospectus . ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flowbite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: College,
+    source_code_link: "https://github.com/ZaidR07/College_Dhundo",
+    deploymentlink: "https://college-dhundo.vercel.app/"
   },
   
 ];
